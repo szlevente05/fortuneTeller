@@ -1,0 +1,59 @@
+:root {
+    --black: #292b2c;
+    --white: #f7f7f7;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--black);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    margin-top: 1vw;
+}
+
+#img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#img-container img {
+    width: 45vw;
+    height: 29vw;
+    margin: 1vw;
+}
+
+#ans-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 0.15vw solid var(--black);
+    border-radius: 0.7vw;
+    padding: 0.7vw;
+}
+
+#ans {
+    font-size: 1.7vw;
+}
+
+#teller {
+    font-size: 1.2vw;
+    border: none;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.7vw;
+    border-radius: 0.7vw;
+    margin-left: 2vw;
+}
+
+#teller:hover {
+    background-color: var(--white);
+    color: var(--black);
+    border: 0.1vw solid var(--black);
+}
